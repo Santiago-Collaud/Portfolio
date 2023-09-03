@@ -1,0 +1,39 @@
+.logo
+{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    text-align: center;
+}
+.gradiente_fondo
+{
+    background:linear-gradient(to right,white,rgb(252, 193, 193),rgb(247, 221, 246));
+    
+}
+.Vision
+{
+    background:linear-gradient(to right,white,rgb(237, 211, 211));
+   
+    border-radius: 3px;
+}
+.Vision_inversa
+{
+    background:linear-gradient(to right,rgb(237, 211, 211),white);
+    
+    border-radius: 3px;
+}
+h1
+{
+    font-family: cursive;
+    font-size: medium;
+}
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+.foto
+{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+

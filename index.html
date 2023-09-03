@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Página de Bienvenida</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            transition: background-color 1s ease-in-out;
+            background-color: rgb(227, 225, 216);
+        }
+        
+        .welcome-page{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1; /* Cambia la opacidad inicial de la página de bienvenida a 1 */
+            transition: opacity 1s ease-in-out;
+        }
+        
+        h1
+        {
+            border:1px solid black;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-page">
+        <h1>Bienvenidos a mi página</h1>
+        <!-- Contenido de bienvenida -->
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.querySelector(".welcome-page").style.opacity = "0"; // Oculta la página de bienvenida
+            document.querySelector("body").style.backgroundColor = "#ffffff"; // Cambia el fondo de la página
+            setTimeout(function () {
+                window.location.href = "index_2.html"; // Redirige a otra página después de la transición
+            }, 1000); // 1000 ms = 1 segundo
+        }, 1000); // 3000 ms = 3 segundos (ajusta el tiempo de espera aquí)
+    </script>
+</body>
+</html>
