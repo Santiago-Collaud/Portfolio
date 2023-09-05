@@ -46,3 +46,15 @@ footer
     text-align: center;
     height: 80%;
 }
+.foto_2
+{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+}
+h3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: black;
+}
